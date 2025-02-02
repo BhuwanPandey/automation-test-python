@@ -16,13 +16,13 @@ python -m venv .venv
 
 ### Install Project Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ## Setup Tools
 Before running test, It is neccessary to setup different tools.
-
+- [Mobileapp](https://github.com/saucelabs/sample-app-mobile/releases) `This is test mobileapp`
 - [Appium](https://appium.io/docs/en/latest/quickstart/install/) `To Perform Automation test on MobileApp` <br>
     -   [ ] You can either follow `setup and configuration` steps from respective documentation or follow process mention below: <br>
         -   Download [Node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/)  version >=8 (LTS is recommended)
