@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Setup Tools
 Before running test, It is neccessary to setup different tools.
-- [Mobileapp](https://github.com/saucelabs/sample-app-mobile/releases) `This is test mobileapp`
+- [Mobileapp](https://github.com/saucelabs/sample-app-mobile/releases) `This is test mobileapp` From where you can download testmobile application.
 - [Appium](https://appium.io/docs/en/latest/quickstart/install/) `To Perform Automation test on MobileApp` <br>
     -   [ ] You can either follow `setup and configuration` steps from respective documentation or follow process mention below: <br>
         -   Download [Node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/)  version >=8 (LTS is recommended)
@@ -75,6 +75,15 @@ Before running test, It is neccessary to setup different tools.
   -  Here is the screenshot, It is neccesary to start `appium server` before starting session
     ![appium_inspector](https://github.com/user-attachments/assets/6fc7950a-797f-409b-b39d-63773d44bdf8)
 
+### Slack Connection
+- [slack webhook](https://api.slack.com/messaging/webhooks)  `Slack Webhook API` <br>
+  - Follow above link to create incomming webhook
+  - After getting key, create .env file to store webhook api as
+  ```
+  SLACK_WEBHOOK_URL=
+  ```
+
+
 ## 🏃‍♂️ Run the  Testcase
 After installing all the required tools, Now do the following
 - Open android studio emulator to see overall test interaction
@@ -83,3 +92,7 @@ After installing all the required tools, Now do the following
   ```
     pytest -x -v 
   ```
+
+## Tutorial 
+  - [Youtube]()
+
