@@ -94,5 +94,5 @@ After installing all the required tools, Now do the following
   ```
 
 ## Tutorial 
-  - [Youtube]()
+  - [Automation Test with Python and Appium](https://www.youtube.com/watch?v=CuBdHldTlho&t=12s&ab_channel=BHUWANPANDEY)
 
