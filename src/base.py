@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage:
-    """Wrapper for selenium operations."""
+    """Wrapper for operations."""
 
     def __init__(self, driver):
         self.driver = driver
@@ -30,7 +30,6 @@ class BasePage:
         time.sleep(2)
 
     def fill_text(self, locator, txt):
-        print("calling..")
         try:
             el = self.wait.until(ec.presence_of_element_located(locator))
             el.send_keys(txt)
