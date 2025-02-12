@@ -73,8 +73,6 @@ Before running test, It is neccessary to setup different tools.
       -  Specify the Appium server details
       -  Interact with the app screenshot
       -  Search for elements and interact with them
-  -  Here is the screenshot, It is neccesary to start `appium server` before starting session
-    ![appium_inspector](https://github.com/user-attachments/assets/6fc7950a-797f-409b-b39d-63773d44bdf8)
 
 ### Slack Connection
 - [slack webhook](https://api.slack.com/messaging/webhooks)  `Slack Webhook API` <br>
